@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { ReloadIcon } from "@radix-ui/react-icons"
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 function SignIn() {
@@ -48,7 +48,6 @@ function SignIn() {
 					</Link>
 				</form>
 			</div>
-
 		</main>
 	)
 }
