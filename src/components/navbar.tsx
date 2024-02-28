@@ -9,11 +9,11 @@ function Navbar() {
 				<h1 className="font-bold text-lg text-zinc-800">E-commerce</h1>
 				<nav>
 					<ul className="flex gap-x-2 items-center">
-						<li><Link href="/auth/signin" className="text-zinc-800 hover:text-black">Entrar</Link></li>
+						<li><Link href="/auth/signin" className="text-zinc-800 font-medium hover:text-black">Entrar</Link></li>
 						<li>
 							<Link href="/auth/register">
 								<Button variant="ghost">
-									<span className="text-base text-zinc-800">Criar conta</span>
+									<span className="text-base font-medium text-zinc-800">Criar conta</span>
 									<ChevronRightIcon className="ml-1"/>
 								</Button>
 							</Link>
