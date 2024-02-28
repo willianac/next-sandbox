@@ -1,0 +1,34 @@
+{
+  "products": [
+		{
+			"image": "bis",
+			"title": "Bis Xtra 300g",
+			"price": "3,49",
+			"installment": 1
+		},
+		{
+			"image": "kitkat",
+			"title": "Kit kat ao leite 41,5g",
+			"price": "6,00",
+			"installment": 1
+		},
+		{
+			"image": "lacta-branco",
+			"title": "Chocolate Lacta Branco 90g",
+			"price": "5,49",
+			"installment": 1
+		},
+		{
+			"image": "kitkat-branco",
+			"title": "Kit kat branco 41,5g",
+			"price": "5,99",
+			"installment": 1
+		},
+		{
+			"image": "xbox",
+			"title": "Xbox Series S 500gb ssd",
+			"price": "2.249,20",
+			"installment": 4
+		}
+  ]
+}
