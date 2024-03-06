@@ -10,7 +10,7 @@ export type ProductCardProps = {
 
 function ProductCard({ image, title, price, installment }: ProductCardProps) {
 	return (
-		<div className="flex flex-col justify-between border px-8 py-4 rounded-md border-zinc-200 shadow-lg shadow-zinc-400/25 max-w-56 gap-y-7 bg-white hover:shadow-zinc-400/60 hover:shadow-xl">
+		<div className="flex flex-col justify-between h-full max-h-96 border px-8 py-4 rounded-md border-zinc-200 shadow-lg shadow-zinc-400/25 max-w-56 gap-y-7 bg-white hover:shadow-zinc-400/60 hover:shadow-xl">
 			<div>
 				<Image src={`/${image}.webp`} alt="bis image" width="160" height="160"/>
 			</div>
