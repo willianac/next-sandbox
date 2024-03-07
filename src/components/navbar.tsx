@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { ChevronRightIcon } from "@radix-ui/react-icons";
+import { IoCartOutline } from "react-icons/io5";
 
 function Navbar() {
 	return (
@@ -17,6 +18,9 @@ function Navbar() {
 									<ChevronRightIcon className="ml-1"/>
 								</Button>
 							</Link>
+						</li>
+						<li>
+							<IoCartOutline className="text-2xl text-zinc-800"/>
 						</li>
 					</ul>
 				</nav>

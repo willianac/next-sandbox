@@ -14,7 +14,7 @@ function ProductCard({ image, title, price, installment }: ProductCardProps) {
 			<div>
 				<Image src={`/${image}.webp`} alt="bis image" width="160" height="160"/>
 			</div>
-			<div className="flex flex-col">
+			<div className="flex flex-col truncate w-[158px]">
 				<h1 className="mb-4 font-medium">{title}</h1>
 				<span className="font-semibold">R$ {price}</span>
 				<span className="text-sm text-zinc-500">em {installment}x de R$3,49</span>
